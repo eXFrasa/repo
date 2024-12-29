@@ -1,3 +1,11 @@
 .post-body > h2 {
 color: red;
 }
+.line-bottom{
+                width: 100%;
+                height: 2px;
+                position: relative;
+                display: block;
+                background: linear-gradient(to right, /*Fuchsia*/#FF00FF, /*Blue*/#434DED, /*Lime*/#D00AFF);
+
+}
