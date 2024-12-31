@@ -1,6 +1,39 @@
-.post-body > h2 {
-color: red;
+.breadcrumbs {
+  display:block;
+  box-sizing: border-box;
+  background: #a4acf5;
+  line-height:1.2em;
+  width:100%;
+  overflow:hidden;
+  margin:0;
+  padding:10px 15px;
+  border-top:0px solid #dedede;
+  border-bottom: 0.5px solid #dedede;
+  font-size:80%;
+  color:#191919;
+  font-weight:500;
+  text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  white-space:nowrap;
+  & a {
+    display:inline-block;
+    text-decoration:none;
+    transition:all .3s ease-in-out;
+    color: #111;
+    font-weight:400;
+    &:hover{
+      color:#11589D
+    }
+  }
 }
+
+
+.breadcrumbs svg{
+width:20px;
+height:20px;
+vertical-align:-4px;
+}
+.breadcrumbs svg path{fill:#111}
 .line-bottom{
                 width: 100%;
                 height: 2px;
