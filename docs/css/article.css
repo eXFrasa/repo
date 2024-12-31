@@ -27,13 +27,13 @@
   }
 }
 /*=== Post Title ===*/
-.item-view .post-title {margin:15px 0px;line-height:1.7;font-weight:500;font-family: Roboto, -apple-system, sans-serif; display:block}
+.item-view .post-title {color:var(--color-primary-title);margin:15px 0px;line-height:1.7;font-weight:400;font-family: Roboto, -apple-system, sans-serif; display:block}
 
 .item-view .post-body > p {
   font-size: 16px;
   color: #000000;
   margin-bottom: 30px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--font-ssp);
 }
 .item-view .post-body > .all a[target=_blank]::after,
 .post-body p a[target=_blank]::after{
