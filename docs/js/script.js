@@ -12,7 +12,7 @@ $(document).ready(function(){
 }
 
       // Jika tombol/elemen 'tutup', atau overlay diklik
-	    $('body').on('click', '.close-label, .amp-sidebar-container + .sidebar-overlay', function(event) {
+	    $('body').on('click', '.close-label, .exfra-sidebar + .sidebar-overlay', function(event) {
           // Hibungi tutup dan
           close_click_sidebar();
       });
