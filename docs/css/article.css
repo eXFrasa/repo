@@ -1,7 +1,7 @@
 .breadcrumbs {
   display:block;
   box-sizing: border-box;
-  background: #a4acf5;
+  background: #aeaaea;
   line-height:1.2em;
   width:100%;
   overflow:hidden;
@@ -22,7 +22,7 @@
     color: #111;
     font-weight:400;
     &:hover{
-      color:#11589D
+      color:#11589D;
     }
   }
 }
@@ -38,10 +38,10 @@
 .item-view .post-body > h5, 
 .item-view .post-body > h6 {
   font-weight: 400;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   box-sizing: border-box;
+  font-family: var(--font-ssp);
   } 
-
 .item-view .post-body > h1 {
   font-size: 64px;
   color: #191919;
@@ -53,34 +53,29 @@
   font-size: 40px;
   color: #191919;
   line-height: 1.30em;
-  font-family: 'Source Sans Pro', sans-serif;
- }
+  }
  .item-view .post-body > h3 {
-  font-size: 37px;
+  font-size: 33px;
   color: #191919;
   line-height: 1.20em;
-  font-family: 'Source Sans Pro', sans-serif;
   }
 
 .item-view .post-body > h4 {
-  font-size: 32px;
+  font-size: 30px;
   color: #191919;
   line-height: 1.10em;
-  font-family: 'Source Sans Pro', sans-serif;
   }
 
 .item-view .post-body > h5 {
-  font-size: 24px;
+  font-size: 28px;
   color: #191919;
   line-height: 1.00em;
-  font-family: 'Source Sans Pro', sans-serif;
   }
 
 .item-view .post-body > h6 {
-  font-size: 20px;
+  font-size: 25px;
   color: #191919;
   line-height: 0.90em;
-  font-family: 'Source Sans Pro', sans-serif;
   }
 
 /* H1 to H6 Tag Code 
