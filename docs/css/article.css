@@ -1,7 +1,7 @@
 .breadcrumbs {
   display:block;
   box-sizing: border-box;
-  background: #aeaaea;
+  background: #bfc7f5;
   line-height:1.2em;
   width:100%;
   overflow:hidden;
@@ -24,6 +24,12 @@
     &:hover{
       color:#11589D;
     }
+  }
+  & svg{
+  width:20px;
+  height:20px;
+  vertical-align:-4px;
+    & path{fill:#111}
   }
 }
 /*=== Post Title ===*/
@@ -104,11 +110,13 @@
   letter-spacing: -0.05rem; 
   opacity: 0.3;
 }
-
+.item-view .post-body > ol li,
+.item-view .post-body > ul li,
 .item-view .post-body > p {
   font-size: 16px;
-  color: #000000;
+  color: #002233;
   margin-bottom: 30px;
+  display: inline-block;
   font-family: var(--font-ssp);
 }
 .item-view .post-body > .all a[target=_blank]::after,
@@ -133,13 +141,6 @@
   box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
 }
 
-.item-view .post-body > ol li,
-.item-view .post-body > ul li {
-  font-size: 16px;
-  color: #000000;
-  font-family: 'Source Sans Pro', sans-serif;
-  }
-
 /*=== Tag hr ===*/
 .item-view .post-body hr {
   width: 100%;
@@ -151,18 +152,10 @@
   } 
 
 /*=== Tag Img ===*/
-.item-view .post .post-body img {
+.item-view .post-body > img {
+  max-width: 100%;
   border-radius: 5px;
-  } 
-
-.breadcrumbs svg{
-width:20px;
-height:20px;
-vertical-align:-4px;
-}
-.breadcrumbs svg path{fill:#111}
-
-  
+  }
 .content-code {
   height: 500px;
   width: 80%;
