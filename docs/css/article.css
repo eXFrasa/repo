@@ -44,12 +44,12 @@
   color: var(--color-primary-title);⁰
   } 
 .item-view .post-body > h1 {
-  font-size: 64px;
+  font-size: 40px;
   line-height: 1.4em;
   }
 
 .item-view .post-body > h2 {
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.30em;
   }
  .item-view .post-body > h3 {
@@ -63,12 +63,12 @@
   }
 
 .item-view .post-body > h5 {
-  font-size: 28px;
+  font-size: 27px;
   line-height: 1.00em;
   }
 
 .item-view .post-body > h6 {
-  font-size: 25px;
+  font-size: 24px;
   line-height: 0.90em;
   }
 
