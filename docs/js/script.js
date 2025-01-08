@@ -28,31 +28,31 @@ $(document).ready(function(){
 	toggle_click_sidebar();
     
     
-    function toggle_click_archive() {
+    function toggle_post_archive() {
 	// Klik pada tombol atau link tautan
-	    $(".toggle-click-archive").on("click", function(e){
+	    $(".toggle-post-sidebar").on("click", function(e){
 	      $("body").addClass("show-post-sidebar noscroll");
       });
 
 	  // Tutup atau Hapus Bars
-      function close_click_archive() {
+      function close_post_archive() {
         // Sembunyikan kembali modal Bars
         $("body").removeClass("show-post-sidebar noscroll");
 }
 
       // Jika tombol/elemen 'tutup', atau overlay diklik
-	    $('body').on('click', '.close-archive, .container-modal-archive .overlay', function(event) {
+	    $('body').on('click', '.close-post-sidebar, .container-modal-post .overlay', function(event) {
           // Hibungi tutup dan
-          close_click_archive();
+          close_post_sidebar();
       });
       // Jika tombol ESC diketuk
       $('body').keyup(function(e) {
           // Kunci ESC dipetakan ke kode kunci `27`
           if (e.keyCode == 27) { 
             // Panggil fungsi tutup dan setel ulang
-            close_click_archive();
+            close_post_sidebar();
           }
       });
 	}
-	toggle_click_archive();
+	toggle_post_sidebar();
   });
