@@ -31,13 +31,13 @@ $(document).ready(function(){
     function toggle_click_archive() {
 	// Klik pada tombol atau link tautan
 	    $(".toggle-click-archive").on("click", function(e){
-	      $("body").addClass("show-archive noscroll");
+	      $("body").addClass("show-post-sidebar noscroll");
       });
 
 	  // Tutup atau Hapus Bars
       function close_click_archive() {
         // Sembunyikan kembali modal Bars
-        $("body").removeClass("show-archive noscroll");
+        $("body").removeClass("show-post-sidebar noscroll");
 }
 
       // Jika tombol/elemen 'tutup', atau overlay diklik
