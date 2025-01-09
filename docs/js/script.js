@@ -41,7 +41,7 @@ $(document).ready(function(){
 }
 
       // Jika tombol/elemen 'tutup', atau overlay diklik
-	    $('body').on('click', '.close-post-sidebar, .container-modal-post .overlay', function(event) {
+	    $('body').on('click', '.close-post-sidebar, .post-sidebar + .overlay', function(event) {
           // Hibungi tutup dan
           close_post_sidebar();
       });
