@@ -542,3 +542,30 @@
   
   }
 
+/*== Lisensi ==*/
+.Frasa-lisensi-Article {
+  margin: 20px 0px;
+  position: relative;
+  padding: 5px 15px;
+  & > p {
+    color: #444;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 1.5;
+    & > a {
+      color: var(--color-primary-link);
+      font-size: 13px;
+      &:focus,&:hover{
+        text-decoration: underline;
+        }
+      }
+    }
+  & > span {
+    top: 20px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500px;
+    line-height: 1.5;
+    position: relative;
+    }
+  }
