@@ -28,14 +28,14 @@ $(document).ready(function(){
 	toggle_click_sidebar();
     
     
-    function toggle_post_archive() {
+    function toggle_post_sidebar() {
 	// Klik pada tombol atau link tautan
 	    $(".toggle-post-sidebar").on("click", function(e){
 	      $("body").addClass("show-post-sidebar noscroll");
       });
 
 	  // Tutup atau Hapus Bars
-      function close_post_archive() {
+      function close_post_sidebar() {
         // Sembunyikan kembali modal Bars
         $("body").removeClass("show-post-sidebar noscroll");
 }
