@@ -578,3 +578,9 @@
     font-size: 12px;
     }
   }
+.item-view .post .post-timestamp {
+  color: #191919;
+  font-size: 0.8em;
+  margin: 15px 15px;
+  margin-bottom: 0em;
+  }
