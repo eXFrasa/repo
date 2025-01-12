@@ -34,7 +34,10 @@
 }
 /*=== Post Title ===*/
 .item-view .post-title {color:var(--color-primary-title);margin:15px 0px;line-height:1.7;font-weight:400;font-family: Roboto, -apple-system, sans-serif; display:block}
-
+.post-body > img {
+  margin-left: 15px;
+  width: calc(100% - 30px);
+  }
 /* H1 to H6 
 ------------------------------*/ 
 .item-view .post-body > h1, 
