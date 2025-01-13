@@ -38,6 +38,26 @@
   margin-left: 15px;
   width: calc(100% - 30px);
   }
+.item-view .TagView {
+ margin: 15px 0px;                       
+display: none;
+padding: 5px 7px;
+ & svg {
+                          width: 25px;
+                          height: 25px;
+                          margin-right: 5px;
+                          }
+                          & a {
+
+font-size; 12px;
+padding: 2px 7px;
+border-radius: 3px;
+
+z-index:3;
+position: relative;
+                   background: #D00AFF;
+      }
+   }
 /* H1 to H6 
 ------------------------------*/ 
 .item-view .post-body > h1, 
