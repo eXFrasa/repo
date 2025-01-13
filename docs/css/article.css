@@ -670,7 +670,22 @@ position: relative;
   height: 25px;
   margin:0;
   }
-} 
+}
+.frex-language .code-header button {
+  border-top-right-radius:5px;
+  font-size:15px;
+  border: none;
+  display: flex;
+  cursor:pointer;
+  border-left:1px solid var(--bg-line);
+  box-sizing:border-box;
+  padding: 5px 5px 5px 5px;
+  & svg {
+  width: 25px;
+  height: 25px;
+  margin:0;
+  }
+}
 .frex-language .code-header a:hover{
   background:#f3f3f3;
   transition:all 0.1s linear;
