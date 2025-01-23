@@ -158,7 +158,8 @@ position: relative;
   margin: 0px 2px;
   padding: 2px 4px;
   border-radius: 2px;
-  background: #CFDBEA;
+  background: rgba(111, 149, 252,0.3);
+  
   box-sizing: border-box;
   font-family: 'Monospace', sans-serif;
 }
