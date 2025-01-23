@@ -466,7 +466,7 @@ position: relative;
     }
   }
 
-.item-view .post a.post-timestamp {
+.item-view .post .post-timestamp {
   color: #8f63e9;
   font-size: 0.8em;
   box-shadow: inset 0 -3px #cfbcf5;
