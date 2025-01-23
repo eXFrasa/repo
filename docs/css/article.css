@@ -456,7 +456,7 @@ position: relative;
     position: relative;
     }
   }
- .item-view .post-outer .TimerPage {
+ .item-view .TimerPage {
   margin-top: 30px;
   & .DateTime {
     font-size: 13px;
