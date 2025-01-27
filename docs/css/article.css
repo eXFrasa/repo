@@ -466,19 +466,7 @@ position: relative;
     }
   }
 
-.item-view .post .post-timestamp .timestamp-link {
-  color: #8f63e9;
-  font-size: 0.8em;
-  box-shadow: inset 0 -3px #cfbcf5;
-  font-weight: 700;
-  margin: 15px 15px;
-  text-decoration: none;
-  transition: 0.2s;
-  &:hover, &:focus {
-  box-shadow: inset 0 -1.2em #8f63e9;
-  color: #f8f5fe;
-  }
-}
+
 
  
 
