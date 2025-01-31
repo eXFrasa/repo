@@ -570,7 +570,7 @@ position: relative;
   }
 }
 .frex-language .code-header a:hover{
-  background:#f3f3f3;
+  background: rgba(227, 255, 250,0.7);
   transition:all 0.1s linear;
 } 
 .msg-alert{
@@ -648,7 +648,7 @@ position: relative;
 } 
 .frex-language :not(pre)>code[class*="language-"],
 pre[class*="language-"]{
-  background:#f8f8f8;
+  background: rgba(227, 255, 250,0.7);
 }
 :not(pre)>code[class*="language-"]{
   padding:.1em;
