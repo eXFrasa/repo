@@ -151,11 +151,18 @@ position: relative;
 .item-view .post-body > ol li,
 .item-view .post-body > ul li,
 .item-view .post-body > p {
-  font-size: 16px;
+  font-size: 0.9em;
+  font-weight: 400;	
+  line-height: 1.7;
+  color: #243757;  
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: inline-block;
+ /* font-size: 16px;
   color: #002233;
   margin-bottom: 30px;
   display: inline-block;
-  font-family: var(--font-ssp);
+  font-family: var(--font-ssp);*/
 }
 .item-view .post-body > .all a[target=_blank]::after,
 .post-body p a[target=_blank]::after{
