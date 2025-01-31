@@ -33,7 +33,7 @@
   }
 }
 /*=== Post Title ===*/
-.item-view .post-title {color:var(--color-primary-title);margin:15px 0px;line-height:1.7;font-weight:400;font-family: Roboto, -apple-system, sans-serif; display:block}
+.item-view .post-title {color:var(--color-primary-title);margin:15px 0px;line-height:1.7;font-weight:400;font-family: var(--font-ssp); display:block}
 .item-view .post .post-timestamp .timestamp-link {
   left: 0;
   width: none;
@@ -58,21 +58,19 @@
 display: none;
 padding: 5px 7px;
  & svg {
-                          width: 25px;
-                          height: 25px;
-                          margin-right: 5px;
-                          }
-                          & a {
-
-font-size; 12px;
-padding: 2px 7px;
-border-radius: 3px;
-
-z-index:3;
-position: relative;
-                   background: #D00AFF;
-      }
-   }
+   width: 25px;
+   height: 25px;
+   margin-right: 5px;
+ }
+  & a {
+    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    z-index:3;
+    position: relative;
+    background: #D00AFF;
+    }
+}
 /* H1 to H6 
 ------------------------------*/ 
 .item-view .post-body > h1, 
@@ -221,275 +219,6 @@ position: relative;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@keyframes showAnimation {
-  0% {
-    -moz-transform: scaleY(0.1);
-    -ms-transform: scaleY(0.1);
-    -webkit-transform: scaleY(0.1);
-    transform: scaleY(0.1);
-  }
-  40% {
-    -moz-transform: scaleY(1.04);
-    -ms-transform: scaleY(1.04);
-    -webkit-transform: scaleY(1.04);
-    transform: scaleY(1.04);
-  }
-  60% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.04);
-    -ms-transform: scaleY(1.04);
-    -webkit-transform: scaleY(1.04);
-    transform: scaleY(1.04);
-  }
-  100% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.02);
-    -ms-transform: scaleY(1.02);
-    -webkit-transform: scaleY(1.02);
-    transform: scaleY(1.02);
-  }
-  100% {
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-}
-@-moz-keyframes showAnimation {
-  0% {
-    -moz-transform: scaleY(0.1);
-    -ms-transform: scaleY(0.1);
-    -webkit-transform: scaleY(0.1);
-    transform: scaleY(0.1);
-  }
-  40% {
-    -moz-transform: scaleY(1.04);
-    -ms-transform: scaleY(1.04);
-    -webkit-transform: scaleY(1.04);
-    transform: scaleY(1.04);
-  }
-  60% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.04);
-    -ms-transform: scaleY(1.04);
-    -webkit-transform: scaleY(1.04);
-    transform: scaleY(1.04);
-  }
-  100% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.02);
-    -ms-transform: scaleY(1.02);
-    -webkit-transform: scaleY(1.02);
-    transform: scaleY(1.02);
-  }
-  100% {
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-}
-@-webkit-keyframes showAnimation {
-  0% {
-    -moz-transform: scaleY(0.1);
-    -ms-transform: scaleY(0.1);
-    -webkit-transform: scaleY(0.1);
-    transform: scaleY(0.1);
-  }
-  40% {
-    -moz-transform: scaleY(1.04);
-    -ms-transform: scaleY(1.04);
-    -webkit-transform: scaleY(1.04);
-    transform: scaleY(1.04);
-  }
-  60% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.04);
-    -ms-transform: scaleY(1.04);
-    -webkit-transform: scaleY(1.04);
-    transform: scaleY(1.04);
-  }
-  100% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.02);
-    -ms-transform: scaleY(1.02);
-    -webkit-transform: scaleY(1.02);
-    transform: scaleY(1.02);
-  }
-  100% {
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-}
-@keyframes hideAnimation {
-  0% {
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-  60% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.02);
-    -ms-transform: scaleY(1.02);
-    -webkit-transform: scaleY(1.02);
-    transform: scaleY(1.02);
-  }
-  100% {
-    -moz-transform: scaleY(0);
-    -ms-transform: scaleY(0);
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-  }
-}
-@-moz-keyframes hideAnimation {
-  0% {
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-  60% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.02);
-    -ms-transform: scaleY(1.02);
-    -webkit-transform: scaleY(1.02);
-    transform: scaleY(1.02);
-  }
-  100% {
-    -moz-transform: scaleY(0);
-    -ms-transform: scaleY(0);
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-  }
-}
-@-webkit-keyframes hideAnimation {
-  0% {
-    -moz-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-  60% {
-    -moz-transform: scaleY(0.98);
-    -ms-transform: scaleY(0.98);
-    -webkit-transform: scaleY(0.98);
-    transform: scaleY(0.98);
-  }
-  80% {
-    -moz-transform: scaleY(1.02);
-    -ms-transform: scaleY(1.02);
-    -webkit-transform: scaleY(1.02);
-    transform: scaleY(1.02);
-  }
-  100% {
-    -moz-transform: scaleY(0);
-    -ms-transform: scaleY(0);
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-  }
-}*/
-.frex-faq {
-  padding: 5px 15px;
-  
-  }
-
-/*== Lisensi ==*/
-.Frasa-lisensi-Article {
-  margin: 20px 0px;
-  position: relative;
-  padding: 5px 15px;
-  & > p {
-    color: #444;
-    font-size: 13px;
-    font-weight: 400px;
-    line-height: 1.5;
-    & > a {
-      color: var(--color-primary-link);
-      font-size: 13px;
-      font-weight: 700;
-      &:focus,&:hover{
-        text-decoration: underline;
-        }
-      }
-    }
-  & > span {
-    top: 20px;
-    color: #444;
-    font-size: 13px;
-    font-weight: 500px;
-    line-height: 1.5;
-    position: relative;
-    }
-  }
- .item-view .TimerPage {
-  margin-top: 30px;
-  & .DateTime {
-    font-size: 13px;
-    }
-  & p {
-    font-size: 12px;
-    }
-  }
-
-
-
  
 
 
@@ -573,18 +302,7 @@ position: relative;
   background: rgba(227, 255, 250,0.7);
   transition:all 0.1s linear;
 } 
-.msg-alert{
-  position:fixed;
-  bottom:65px;
-  left:20px;
-  background:#333;
-  z-index:1000;
-  color:#fff;
-  font-family:Helvetica,Arial,sans-serif;
-  font-size:15px;
-  padding:8px 12px;
-  border-radius:5px;
-} 
+
 .frex-language .language-css,
 .frex-language .language-html,
 .frex-language .language-js {
@@ -596,7 +314,7 @@ position: relative;
 }
 .frex-language code[class*="language-"],
 .frex-language pre[class*="language-"] {
-  font-size:14px;
+  font-size: 0.9em;
   letter-spacing:.02rem;
   line-height:1.4;
   color:black;
@@ -615,7 +333,7 @@ position: relative;
   -moz-hyphens:none;
   -ms-hyphens:none;
   hyphens:none;
- /* background: #fff;*/
+  background: rgba(111, 149, 252,0.05);
 } 
 .frex-language pre[class*="language-"]::-moz-selection,
 .frex-language pre[class*="language-"]::-moz-selection,
@@ -691,3 +409,53 @@ pre[class*="language-"]{
 .token.bold{font-weight:bold}
 .token.italic{font-style:italic}
 .token.entity{cursor:help}
+
+
+
+
+
+
+
+
+
+
+
+
+/*== Lisensi ==*/
+.Frasa-lisensi-Article {
+  margin: 20px 0px;
+  position: relative;
+  padding: 5px 15px;
+  & > p {
+    color: #444;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 1.5;
+    & > a {
+      color: var(--color-primary-link);
+      font-size: 13px;
+      font-weight: 700;
+      &:focus,&:hover{
+        text-decoration: underline;
+        }
+      }
+    }
+  & > span {
+    top: 20px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500px;
+    line-height: 1.5;
+    position: relative;
+    }
+  }
+ .item-view .TimerPage {
+  margin-top: 30px;
+  & .DateTime {
+    font-size: 13px;
+    }
+  & p {
+    font-size: 12px;
+    }
+  }
+
