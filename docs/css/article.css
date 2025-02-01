@@ -153,7 +153,7 @@ padding: 5px 7px;
   font-weight: 400;	
   line-height: 1.7;
   color: #243757;  
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 20px;
   display: inline-block;
  /* font-size: 16px;
@@ -228,7 +228,7 @@ padding: 5px 7px;
 ===°===°===°====°==°===°===°===*/
 .frex-language {margin:10px 0px;padding:0px 15px;}
 .frex-language pre code.language-css.css::before,
-.post-body pre code.language-css.scss::before,
+.frex-languag pre code.language-css.scss::before,
 .frex-language pre code.language-css.sass::before,
 .frex-language pre code.language-html::before,
 .frex-language pre code.language-js::before {
