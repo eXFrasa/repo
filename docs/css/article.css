@@ -116,7 +116,7 @@
 
 .post-body > img {
   margin-left: 15px;
-  width: calc(100% - 30px);
+  width: calc(100% - 30%);
   }
 .item-view .TagView {
  margin: 15px 0px;                       
