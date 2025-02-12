@@ -225,6 +225,12 @@ padding: 5px 7px;
   margin-top: 5px;
   margin-bottom: 20px;
   display: inline-block;
+  & a {
+    color: #434DED;
+    &:focus {
+      text-decoration: underline;
+    }
+  }
  /* font-size: 16px;
   color: #002233;
   margin-bottom: 30px;
