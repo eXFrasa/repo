@@ -1,7 +1,8 @@
 .breadcrumbs {
   display:block;
   box-sizing: border-box;
-  background: rgba(124,157,247,0.8);
+  background-color: #EAEEF6;
+ /* background: rgba(124,157,247,0.8);*/
   line-height:1.2em;
   width:100%;
   overflow:hidden;
