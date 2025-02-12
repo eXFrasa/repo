@@ -49,67 +49,8 @@
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   }
-  .section-landing-start-page {
-  height: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  overflow: hidden;
-  position: relative;
- /* background: #ccc;*/
-  & .icon-start-page {
-    top: 0px;
-    min-width: 300px;
-    min-height: 300px;
-    z-index: 10;
-    position: relative;
-    filter:drop-shadow(-3px 4px 3px #5c7cfa);
-  }
-  .font-start-page {
-  text-align: left;
-  padding: 15px 25px;
-  position: relative;
-  & h1 {
-    font-size: 3em;
-    margin: 5px 0px;
-    color: var(--main-font-color);
-    }
-  & p {
-    color: var(--main-font-color);
-    font-size: 0.9em;
-    line-height: 1.6;
-    }
-  }
-  & svg.bgview {
-    bottom: 2%;
-    left: 15%;
-    z-index: 5;
-    height: 80px;
-    width: 80px;
-    transform: rotate(25deg);
-    position: absolute;
-    filter:drop-shadow(2px -3px 2px #5c7cfa); 
-    }
-  & svg.bgview-alt {
-    top: 160px;
-    right: 20px;
-    z-index: 5;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    filter:drop-shadow(2px -3px 2px #5c7cfa);
-    
-    }
-  @media (max-width: 640px){
-    align-items: start;
-    flex-direction: column;
-    & .font-start-page {
-      text-align: center;
-      }
-    }
-  }
+      
+  
 
 
 
